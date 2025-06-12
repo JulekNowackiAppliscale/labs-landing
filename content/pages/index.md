@@ -4,10 +4,10 @@ slug: /
 sections:
   - type: GenericSection
     title:
-      text: Unblock your team boost your time to production
+      text: 'Unblock your team boost your time to production, have a nice day!'
       color: text-dark
       type: TitleBlock
-    subtitle: Subtitle goes here
+    subtitle: Sustainable building
     text: >
       Have a nice day! A Netlify Create website is a git repo that you own.
       Every code commit is instantly reflected in the visual editor and since
@@ -17,7 +17,7 @@ sections:
       - label: Get started
         altText: ''
         url: /
-        showIcon: false
+        showIcon: true
         icon: arrowRight
         iconPosition: right
         style: secondary
@@ -38,20 +38,79 @@ sections:
       elementId: ''
       type: ImageBlock
     badge:
-      label: This is a badge
+      label: This is a julek page
       color: text-primary
       type: Badge
     elementId: ''
     colors: bg-light-fg-dark
     styles:
       self:
-        alignItems: center
+        alignItems: flex-start
         flexDirection: row
         padding:
           - pt-16
           - pl-16
           - pb-16
           - pr-16
+        justifyContent: center
+  - type: ImageGallerySection
+    subtitle: Our customers
+    images:
+      - type: ImageBlock
+        url: /images/empathy-logo.svg
+        altText: Empathy logo
+        elementId: ''
+      - type: ImageBlock
+        url: /images/wellster-logo.svg
+        altText: Wellster logo
+        elementId: ''
+      - type: ImageBlock
+        url: /images/vise-logo.svg
+        altText: Vise logo
+        elementId: ''
+      - type: ImageBlock
+        url: /images/telus-logo.svg
+        altText: Telus logo
+        elementId: ''
+      - type: ImageBlock
+        url: /images/contenful-logo.svg
+        altText: Contentful logo
+        elementId: ''
+      - type: ImageBlock
+        url: /images/sanity-logo.svg
+        altText: Sanity logo
+        elementId: ''
+      - type: ImageBlock
+        url: /images/rangle-logo.svg
+        altText: Rangle logo
+        elementId: ''
+    elementId: ''
+    motion: move-to-left
+    colors: bg-light-fg-dark
+    styles:
+      self:
+        margin:
+          - mt-0
+          - ml-0
+          - mb-0
+          - mr-0
+        padding:
+          - pt-16
+          - pl-16
+          - pb-16
+          - pr-16
+        justifyContent: center
+      subtitle:
+        textAlign: center
+        fontWeight: 700
+    backgroundImage:
+      type: BackgroundImage
+      altText: altText of the image
+      backgroundSize: cover
+      backgroundPosition: center
+      backgroundRepeat: no-repeat
+      opacity: 100
+      url: /images/abstract-feature3.svg
   - type: FeaturedItemsSection
     title:
       text: Key Benefits

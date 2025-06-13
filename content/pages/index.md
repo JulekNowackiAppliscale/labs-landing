@@ -15,7 +15,7 @@ sections:
       work.
     actions:
       - label: Get started
-        altText: ''
+        altText: Get started primmary button
         url: /
         showIcon: true
         icon: arrowRight
@@ -23,11 +23,11 @@ sections:
         style: secondary
         elementId: ''
         type: Button
-      - label: See Tutorials
+      - label: Contact us
         altText: ''
         url: /
         showIcon: true
-        icon: arrowRight
+        icon: arrowLeft
         iconPosition: right
         style: primary
         elementId: ''
@@ -103,14 +103,6 @@ sections:
       subtitle:
         textAlign: center
         fontWeight: 700
-    backgroundImage:
-      type: BackgroundImage
-      altText: altText of the image
-      backgroundSize: cover
-      backgroundPosition: center
-      backgroundRepeat: no-repeat
-      opacity: 100
-      url: /images/abstract-feature3.svg
   - type: FeaturedItemsSection
     title:
       text: Key Benefits

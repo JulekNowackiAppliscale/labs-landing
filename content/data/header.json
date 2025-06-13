@@ -4,7 +4,9 @@
         "altText": "Logo dark",
         "styles": {
             "self": {
-                "margin": ["mr-3"]
+                "margin": [
+                    "mr-3"
+                ]
             }
         },
         "type": "ImageBlock"
@@ -71,8 +73,8 @@
     ],
     "secondaryLinks": [
         {
-            "label": "Sign up",
-            "altText": "Sign up",
+            "label": "Contact us ",
+            "altText": "Contact us ",
             "url": "https://app.netlify.com/signup",
             "icon": "arrowRight",
             "iconPosition": "right",
@@ -80,12 +82,13 @@
             "type": "Button"
         },
         {
-            "label": "Log in",
-            "url": "/",
+            "label": "Get started",
+            "url": "https://app.netlify.com/pricing",
             "icon": "arrowRight",
             "iconPosition": "right",
             "style": "primary",
-            "type": "Button"
+            "type": "Button",
+            "altText": "Get started"
         }
     ],
     "variant": "logo-left-primary-nav-centered",
